@@ -1,0 +1,12 @@
+F2 is a single-player paper-and-pencil game. It is played on a field bounded by width but unbounded by height. The goal of F2 is to get rid of all numbers on the field.
+
+The player can achieve this by crossing out two numbers that are either equal or add up to ten. These two numbers have to be neighbouring in one of the following ways: Either, they are in the same column with an arbitrary number of crossed out numbers between them, or, they are a number and its Western reading style successor (WRSS).
+
+A WRSS of a number is the number that a Western reader would read after the first one if he would be reading the field out aloud. If there is another non-crossed number right to the first number in the same line, this would be the first number’s WRSS. In all other cases, the WRSS of a number is the first non-crossed number of the next line (reading from top to bottom) containing non-crossed numbers.
+
+The player always has the option to copy all non-crossed numbers to the end of the field if he cannot or does not want to cross out any more number pairs. In order to do this, he reads all non-crossed numbers Western style and appends them to the end of the field, Western style as well.
+
+Most common starting position:
+123456789
+111213141
+516171819
